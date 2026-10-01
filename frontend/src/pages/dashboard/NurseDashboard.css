@@ -1,0 +1,103 @@
+.nurse-dashboard{
+
+    min-height:100vh;
+
+    padding:40px;
+
+    background:#eef6ff;
+
+    text-align:center;
+
+    position:relative;
+
+}
+
+
+
+.nurse-dashboard h1{
+
+    color:#0b5ed7;
+
+    font-size:40px;
+
+}
+
+
+
+.dashboard-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+    margin-top:40px;
+
+}
+
+
+
+.dashboard-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,0.15);
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+
+.dashboard-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+
+
+
+
+/* Logout Button */
+
+.logout-btn{
+
+    position:absolute;
+
+    top:25px;
+
+    right:30px;
+
+    padding:10px 25px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#dc3545;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+
+
+.logout-btn:hover{
+
+    background:#bb2d3b;
+
+}

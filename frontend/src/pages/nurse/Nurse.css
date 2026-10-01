@@ -1,0 +1,243 @@
+/* Nurse Common Page */
+
+.nurse-page{
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+
+
+
+
+.nurse-page h1{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+.nurse-page h2{
+
+    margin-top:25px;
+
+}
+
+
+
+
+
+
+
+
+
+/* Nurse Forms */
+
+.nurse-form{
+
+
+    display:grid;
+
+
+    grid-template-columns:repeat(2,300px);
+
+
+    gap:15px;
+
+
+    justify-content:center;
+
+
+    margin-top:25px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.nurse-form input,
+.nurse-form select,
+.nurse-form textarea{
+
+
+    padding:12px;
+
+
+    font-size:16px;
+
+
+    border-radius:6px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.nurse-form button{
+
+
+    grid-column:span 2;
+
+
+    width:200px;
+
+
+    padding:12px;
+
+
+    margin:auto;
+
+
+    font-size:18px;
+
+
+    cursor:pointer;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Nurse Tables */
+
+.nurse-table{
+
+
+    margin:30px auto;
+
+
+    border-collapse:collapse;
+
+
+}
+
+
+
+
+
+
+
+
+
+.nurse-table th{
+
+
+    padding:12px;
+
+
+    font-size:18px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.nurse-table td{
+
+
+    padding:12px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.nurse-table button{
+
+
+    padding:8px 15px;
+
+
+    cursor:pointer;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Nursing Report Text Area */
+
+.nurse-report-box{
+
+
+    margin-top:25px;
+
+
+}
+
+
+
+.nurse-report-box textarea{
+
+
+    padding:15px;
+
+
+    font-size:16px;
+
+
+    border-radius:6px;
+
+
+}
+
+
+
+
+
+.nurse-report-box button{
+
+
+    margin-top:15px;
+
+
+    padding:12px 30px;
+
+
+    cursor:pointer;
+
+
+}

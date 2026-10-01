@@ -1,0 +1,108 @@
+.laboratory{
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+
+
+.laboratory h1{
+
+    font-size:40px;
+
+}
+
+
+
+.laboratory h2{
+
+    margin-top:25px;
+
+}
+
+
+
+.laboratory-form{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,300px);
+
+    gap:15px;
+
+    justify-content:center;
+
+    margin-top:25px;
+
+}
+
+
+
+.laboratory-form input,
+.laboratory-form select{
+
+    padding:12px;
+
+    font-size:16px;
+
+    border-radius:6px;
+
+}
+
+
+
+.laboratory-form button{
+
+    grid-column:span 2;
+
+    width:200px;
+
+    padding:12px;
+
+    margin:auto;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+
+
+.laboratory-table{
+
+    margin:30px auto;
+
+    border-collapse:collapse;
+
+}
+
+
+
+.laboratory-table th{
+
+    padding:12px;
+
+    font-size:18px;
+
+}
+
+
+
+.laboratory-table td{
+
+    padding:12px;
+
+}
+
+
+
+.laboratory-table button{
+
+    padding:8px 15px;
+
+    cursor:pointer;
+
+}
